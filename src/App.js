@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Contacts from "./components/contacts/Contacts";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "./Context";
